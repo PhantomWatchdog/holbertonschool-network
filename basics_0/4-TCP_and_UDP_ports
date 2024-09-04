@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
-# A script that displays listening sockets and shows the PID and name of the program to which each socket belongs.
-# For Mac : lsof -i -P -n
+# Displays listening sockets, PID and name of the program. For Mac : lsof -i -P -n
 ss -tulnpe
